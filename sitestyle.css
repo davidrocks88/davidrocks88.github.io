@@ -28,3 +28,94 @@ li a:hover {
         background-color: #c3c3c3;
         color: black;
 }
+
+.name {
+        text-align: center;
+ /*       margin-left: auto;
+        margin-right: auto;*/
+}
+
+.block { 
+        width: 300px;
+        height: 200px;
+        float: left;
+        /*display: table-cell;*/
+        text-align: center;
+}
+
+#block1 {
+        background-color: #c3c2ff;
+}
+
+#block2 {
+        background-color: #cfe8ff;
+}
+
+#block3 {
+        background-color: #c2fffc;
+}
+
+#block4 {
+        background-color: #b1bfe8;
+}
+
+#block5 {
+        background-color: #DAF3FF;
+}
+
+#block6 {
+        background-color: #b0fff0;
+}
+
+.block_text {
+        text-align: center;
+        vertical-align: middle;
+        line-height: 200px;
+        width: 300px;
+        display: table-cell;
+}
+
+
+.profPic {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+profPic img {
+  height: 50%;
+  width: 50%;
+  margin-left: -200px;
+}
+
+#pic {
+  height: 25%;
+  width: 25%;
+  display: inline;
+  margin-right: auto;
+  margin-left: auto;
+  }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#resume_box{
+  display: inline;
+  margin-left: 10%;
+}
+
+#bio_box {
+  display: inline;
+  margin-right: 10%;
+}
+
+.front_block {
+  /*https://drafts.csswg.org/css-values/#viewport-relative-lengths*/
+  font-size: 4vw; 
+}
+
