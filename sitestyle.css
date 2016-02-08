@@ -9,142 +9,135 @@
 }
 
 li a {
-        display: inline-block; /* makes the whole area into a block */
+        display: inline-block;
         color: #333;
         text-align: center;
         padding: 14px 16px;
-}
-
-li .active {
-        background-color: #c3c3c3;
-        color: #333;
-        text-decoration: none;
-        display: inline; /*makes it so they're all on the same line*/
 }
 
 li a:hover {
         background-color: #c3c3c3;
         color: #333;
 }
-li {
-        float: left; /* makes them all on the same line */
-        
+
+.navList {
+        float: left; /* makes them all on the same line */        
 }
+
 .name {
         text-align: center;
         color: black;
- /*       margin-left: auto;
-        margin-right: auto;*/
 }
-
-.block { 
-        width: 300px;
-        height: 200px;
-        float: left;
-        /*display: table-cell;*/
-        text-align: center;
-}
-
-#block1 {
-        background-color: #c3c2ff;
-}
-
-#block2 {
-        background-color: #cfe8ff;
-}
-
-#block3 {
-        background-color: #c2fffc;
-}
-
-#block4 {
-        background-color: #b1bfe8;
-}
-
-#block5 {
-        background-color: #DAF3FF;
-}
-
-#block6 {
-        background-color: #b0fff0;
-}
-
-.block_text {
-        text-align: center;
-        vertical-align: middle;
-        line-height: 200px;
-        width: 300px;
-        display: table-cell;
-}
-
 
 .profPic {
-  display: inline-block;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 50%;
 }
 
-profPic img {
-  height: 50%;
-  width: 50%;
-  margin-left: -200px;
+.profPic img {
+        height: 50%;
+        width: 50%;
+        margin-left: -200px;
 }
 
 #pic {
-  height: 20%;
-  width: 20%;
-  display: inline;
-  margin-right: auto;
-  margin-left: auto;
-  }
+        height: 20%;
+        width: 20%;
+        display: inline;
+        margin-right: auto;
+        margin-left: auto;
+}
 
 body {
-  margin: 0;
-  padding: 0;
-/*  background: linear-gradient(to bottom, beige, white);
-*/  height:100%;
-  min-height: 100%;
-  background-color: #dfdfdf;
-  font-family: Helvetica;
-
+        margin: 0;
+        padding: 0;
+        height:100%;
+        min-height: 100%;
+        background-color: #dfdfdf;
+        font-family: Helvetica;
 }
 
 #resume_box{
-  display: inline;
-  margin-left: 9%;
-  height: 100%;
-  margin-right: 12%;
+        display: inline;
+        margin-left: 5%;
+        height: 100%;
+        margin-right: 16%;
 }
 
 #bio_box {
-  display: inline;
-  margin-right: 9%;
-  margin-left: 20%;
+        display: inline;
+        margin-right: 9%;
+        margin-left: 20%;
 }
 
 .front_block {
-  /*https://drafts.csswg.org/css-values/#viewport-relative-lengths*/
-  font-size: 5vw; 
-  width: 50%;
-  display: block;
-
-  /*padding-top: 10%;*/
-/*  padding-bottom: 10%;
-*/}
+        font-size: 5vw; 
+        width: 50%;
+        display: block;
+}
 
 .front_text {
-  margin-bottom: 50%;
-  position: relative;
-  }
+        margin-bottom: 50%;
+        position: relative;
+}
+
 a {
-  color: #333;
-  text-decoration: none;
+        color: #333;
+        text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
-  color: #333;
+        text-decoration: underline;
+        color: #333;
+}
+
+.primaryText {
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%; 
+}
+
+h1 {
+        text-align: center;
+}
+
+h2 {
+        margin: 0;
+        font-size: 3vw;
+}
+
+h5 {
+        margin: 0;
+        font-size: 2vw;
+}
+
+h6 {
+        margin: 0;
+        font-size: 1.5vw;
+}
+
+p {
+        margin: 0;
+}
+
+.subBlock {
+        font-size: 1.5vw;
+        margin: 0;
+        display: block;
+}
+
+.list {
+        list-style-type: none;
+        margin: 0;
+        display: block;
+}
+
+.titleBlock {
+        display: block;
+        margin: 0;
 }
