@@ -12,12 +12,7 @@ li a {
         display: inline-block;
         color: #333;
         text-align: center;
-        padding: 14px 16px;
-}
-
-li a:hover {
-        background-color: #c3c3c3;
-        color: #333;
+        padding: 2vw 2vw;
 }
 
 .navList {
